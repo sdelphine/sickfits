@@ -10,8 +10,8 @@ type Item {
   description: String!
   image: String
   largeImage: String
-  prince: Int!
-  createAt: DateTime!
+  price: Int!
+  createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
-  #user: User!
+  # user: User!
 }
