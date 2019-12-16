@@ -44,8 +44,9 @@ class CreateItem extends Component {
 
     uploadFile = async e => {
         console.log('uploading file...')
-        const files =e.target.files;
+        const files = e.target.files;
         const data = new FormData();
+
         data.append('file', files[0]);
         data.append('upload_preset', 'sickfits');
 
