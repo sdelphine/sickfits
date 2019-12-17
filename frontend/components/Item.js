@@ -39,7 +39,6 @@ class Item extends Component {
                     <DeleteItem id={item.id}>Delete this item</DeleteItem>
 
                 </div>
-
             </ItemStyles>
         )
     }
